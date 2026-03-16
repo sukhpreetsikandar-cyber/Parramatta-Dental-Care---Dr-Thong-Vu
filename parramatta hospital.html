@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parramatta Dental Care | Dr. Thong Vu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .accent-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-accent {
+            background: #0f172a;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(15, 23, 42, 0.1);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+        }
+        .transition-all { transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center">
+        <div class="text-xl font-bold tracking-tighter text-slate-900">
+            PARRAMATTA <span class="text-blue-600">DENTAL CARE</span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium text-xs uppercase tracking-widest">
+            <a href="#about" class="hover:text-blue-600 transition-all">The Practice</a>
+            <a href="#services" class="hover:text-blue-600 transition-all">Clinical Care</a>
+            <a href="#reviews" class="hover:text-blue-600 transition-all">Patient Trust</a>
+            <a href="#contact" class="hover:text-blue-600 transition-all">Contact</a>
+        </div>
+        <a href="tel:+61296353327" class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm font-semibold hover:bg-slate-900 transition-all shadow-md">
+            (02) 9635 3327
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center overflow-hidden bg-slate-50">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 items-center gap-12 z-10">
+            <div>
+                <span class="text-blue-600 font-semibold tracking-[0.3em] uppercase text-xs mb-4 block">Trusted Family Dentistry</span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight text-slate-900">
+                    Excellence in <br/> <span class="italic text-blue-600 font-normal">Oral Health Care.</span>
+                </h1>
+                <p class="max-w-md text-lg text-slate-600 mb-10 leading-relaxed">
+                    Led by Dr. Thong Vu, we have provided exceptional dental services to the Parramatta community for over a decade.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-slate-900 text-white px-8 py-4 rounded-lg font-bold shadow-lg hover:bg-blue-600 transition-all text-center">BOOK APPOINTMENT</a>
+                    <a href="#reviews" class="bg-white border border-slate-200 px-8 py-4 rounded-lg font-bold hover:bg-slate-50 transition-all text-center">33+ FIVE-STAR REVIEWS</a>
+                </div>
+            </div>
+            <div class="relative hidden md:block">
+                <div class="absolute -inset-4 bg-blue-100 rounded-3xl rotate-3"></div>
+                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=1000" class="rounded-2xl shadow-2xl relative z-10" alt="Modern Dental Clinic">
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Stats -->
+    <section class="py-12 bg-white border-y border-slate-100">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <p class="text-3xl font-bold text-slate-900">5.0</p>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Google Rating</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-bold text-slate-900">10yr+</p>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Established</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-bold text-slate-900">3000+</p>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Happy Patients</p>
+                </div>
+                <div>
+                    <p class="text-3xl font-bold text-slate-900">100%</p>
+                    <p class="text-xs uppercase tracking-widest text-slate-500">Care Commitment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-4xl font-bold mb-6 text-slate-900">Meet Dr. Thong Vu</h2>
+                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                        Recognised as one of the top practitioners in Western Sydney, Dr. Thong Vu has built a reputation based on trust, precision, and patient comfort. Our practice is dedicated to providing honest, high-quality oral care that lasts a lifetime.
+                    </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition-all">
+                            <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 shrink-0">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Integrity First</h4>
+                                <p class="text-slate-500 text-sm">We only recommend treatments that are truly necessary for your health.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition-all">
+                            <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600 shrink-0">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Advanced Techniques</h4>
+                                <p class="text-slate-500 text-sm">Utilising modern tools for painless and efficient tooth extractions and cleanings.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <div class="bg-slate-100 rounded-3xl p-8 aspect-square flex items-center justify-center">
+                        <span class="text-slate-300 font-bold text-2xl uppercase tracking-[0.5em]">Clinical Excellence</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4 text-slate-900">Our Services</h2>
+            <p class="text-slate-500 mb-16 max-w-xl mx-auto">Comprehensive dental care tailored to your family's specific needs.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm card-hover transition-all text-left">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6 text-blue-600">
+                        🦷
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">General Hygiene</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Professional scale and clean to keep your gums healthy and your breath fresh. Our patients love our thorough yet gentle approach.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm card-hover transition-all text-left">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6 text-blue-600">
+                        ✨
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Restorative Care</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">From skilled tooth extractions to fillings, we restore functionality and comfort to your mouth using high-grade materials.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm card-hover transition-all text-left">
+                    <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6 text-blue-600">
+                        👨‍👩‍👧
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Family Dentistry</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">A trusted partner for families in Parramatta for over 6 years. We make dental visits stress-free for all ages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-24 bg-slate-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Patient Experiences</h2>
+                <div class="flex justify-center text-amber-400 text-xl gap-1">★★★★★</div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <p class="italic text-slate-300 mb-6">"Dr Thong Vu has been our family's dentist for over 6 years, and he's truly exceptional—one of the top in Western Sydney."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-bold">A</div>
+                        <div>
+                            <p class="font-bold">Alan Quach</p>
+                            <p class="text-xs text-slate-500">Local Guide</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <p class="italic text-slate-300 mb-6">"Dr Thong Vu has been my dentist for over a decade, and he’s the only dentist I truly trust."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-bold">M</div>
+                        <div>
+                            <p class="font-bold">Michelle Lam</p>
+                            <p class="text-xs text-slate-500">Long-term Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <p class="italic text-slate-300 mb-6">"No doubt I would recommend this dentist to anyone who needs oral care. Thank you for looking after me."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-bold">K</div>
+                        <div>
+                            <p class="font-bold">Kevin Tran</p>
+                            <p class="text-xs text-slate-500">Patient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="text-4xl font-bold mb-8 text-slate-900">Find Us in Parramatta</h2>
+                    <div class="space-y-8">
+                        <div class="flex items-start gap-4">
+                            <div class="text-blue-600 text-2xl">📍</div>
+                            <div>
+                                <p class="font-bold text-slate-900">Address</p>
+                                <p class="text-slate-500">1/105 Church St, Parramatta NSW 2150, Australia</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="text-blue-600 text-2xl">📞</div>
+                            <div>
+                                <p class="font-bold text-slate-900">Phone</p>
+                                <p class="text-slate-500">+61 2 9635 3327</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="text-blue-600 text-2xl">🕒</div>
+                            <div>
+                                <p class="font-bold text-slate-900">Hours</p>
+                                <p class="text-slate-500">Mon–Fri: 10:00 AM – 6:00 PM</p>
+                                <p class="text-slate-500">Saturday: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 p-8 bg-blue-50 rounded-2xl">
+                        <h4 class="font-bold mb-2 text-blue-900">Schedule Your Visit</h4>
+                        <p class="text-sm text-blue-700 mb-6">Call our friendly staff to book your next consultation or cleaning.</p>
+                        <a href="tel:+61296353327" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-bold shadow-md hover:bg-slate-900 transition-all">CALL NOW</a>
+                    </div>
+                </div>
+                <div class="rounded-3xl overflow-hidden shadow-2xl h-full min-h-[400px] border border-slate-100">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.123456789!2d151.0012345!3d-33.816789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a31a1a1a1a1a%3A0x1a1a1a1a1a1a1a1a!2s105%20Church%20St%2C%20Parramatta%20NSW%202150%2C%20Australia!5e0!3m2!1sen!2sau!4v1620000000000!5m2!1sen!2sau" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-50 py-12 border-t border-slate-200">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-lg font-bold mb-4 tracking-tighter text-slate-900 uppercase">
+                Parramatta Dental Care
+            </div>
+            <p class="text-slate-400 text-sm mb-8">Professional Care by Dr. Thong Vu & Associates.</p>
+            <div class="flex justify-center space-x-6 text-slate-400 text-[10px] font-bold uppercase tracking-[0.2em]">
+                <a href="#" class="hover:text-blue-600 transition-all">Privacy</a>
+                <a href="#" class="hover:text-blue-600 transition-all">Terms</a>
+                <a href="#" class="hover:text-blue-600 transition-all">Oral Health Tips</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
